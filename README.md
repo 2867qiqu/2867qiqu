@@ -10,4 +10,5 @@
 2867qiqu/2867qiqu is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-[中二病脚本（4）.txt](https://github.com/user-attachments/files/15937211/4.txt)
+[中二病脚本源码 (1).txt](https://github.com/user-attachments/files/15937433/1.txt)
+
