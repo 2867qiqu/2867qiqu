@@ -10,4 +10,4 @@
 2867qiqu/2867qiqu is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 ---
-[1丁丁源码.txt](https://github.com/user-attachments/files/16536891/1.txt)
+[中二脚本源码.txt](https://github.com/user-attachments/files/16541098/default.txt)
