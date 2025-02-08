@@ -1,5 +1,5 @@
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/nBq2D86q"))()
-local window = library:new("")
+local window = library:new("中二脚本")
 
 local creds = window:Tab("信息",'16060333448')
 
@@ -10,7 +10,7 @@ local bin = creds:section("玩家信息",true)
     
     local bin = creds:section("作者信息",true)
     bin:Label("官群643574464:")
-    bin:Label("作者:小星")
+    bin:Label("作者:秋明")
     bin:Label("该脚本完全免费")
     bin:Label("请不要倒卖")
     bin:Label("每一个星期更新一次")
