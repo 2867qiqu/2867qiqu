@@ -55,15 +55,15 @@ end)
     loadstring(game:HttpGet("https://shz.al/aMka"))()
 end)
 
-local creds = window:Tab("自瞄",'16060333448')
+local creds = window:Tab("造船寻宝",'16060333448')
 
 local credits = creds:section("内容",true)
-    credits:Button("夜视",function()
-    if Value then
-      game.Lighting.Ambient = Color3.new(1, 1, 1)
-     else
-      game.Lighting.Ambient = Color3.new(0, 0, 0)
-    end
+    credits:Button("防踢",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Anti-Kick/main/Anti%20Kick.lua"))()
+end)
+
+    credits:Button("自动刷金条",function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/urmomjklol69/GoldFarmBabft/main/GoldFarm.lua'),true))()
 end)
 
 local creds = window:Tab("背上只因剑",'16060333448')
