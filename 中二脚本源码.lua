@@ -193,6 +193,13 @@ local credits = creds:section("内容",true)
     loadstring(game:HttpGet("https://scriptblox.com/raw/XMAS-Event-or-Funky-Friday-script-delta-and-fluxus-7093"))()
 end)
 
+local creds = window:Tab("伐木大亨2",'16060333448')
+
+local credits = creds:section("内容",true)
+    credits:Button("伐木大亨2",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/LuaWareLoader.lw/main/luawareloader.wtf"))()
+end)
+    
 local creds = window:Tab("一路向西",'16060333448')
 
 local credits = creds:section("内容",true)
