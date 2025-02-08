@@ -42,6 +42,14 @@ end)
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 end)
 
+    credits:Button("甩人",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/zqyDSUWX"))()
+end)
+
+    credits:Button("飞车",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/63T0fkBm"))()
+end)
+
     credits:Button("无限跳跃",function()
     loadstring(game:HttpGet("https://pastebin.com/raw/V5PQy3y0", true))()
 end)
