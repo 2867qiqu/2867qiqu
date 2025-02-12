@@ -9,7 +9,7 @@ local bin = creds:section("玩家信息",true)
     bin:Label("你的注入器:"..identifyexecutor())
     
     local bin = creds:section("作者信息",true)
-    bin:Label("官群643574464:")
+    bin:Label("官群658451230:")
     bin:Label("作者:秋明")
     bin:Label("该脚本完全免费")
     bin:Label("请不要倒卖")
@@ -36,6 +36,14 @@ end)
 
     credits:Button("飞行",function()
     loadstring(game:HttpGet("https://pastebin.com/raw/gqv7PXAa"))()
+end)
+
+    credits:Button("吸人",function()
+    loadstring(game:HttpGet("https://shz.al/~HHAKS"))()
+end)
+
+    credits:Button("动作包别人可见",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
 end)
 
     credits:Button("iw指令",function()
@@ -65,9 +73,14 @@ end)
     credits:Button("修改攻击体积",function()
     loadstring(game:HttpGet("https://shz.al/CpRJ"))()
 end)
-    
+
+    credits:Button("夜视",function()
+    function(Light)
+  spawn(function() while task.wait() do if Light then game.Lighting.Ambient = Color3.new(1, 1, 1) else game.Lighting.Ambient = Color3.new(0, 0, 0) end end end)
+end)
+
     credits:Button("透视",function()
-    loadstring(game:GetObjects("rbxassetid://10092697033")[1].Source)()
+    loadstring(game:HttpGet("https://pastebin.com/raw/uw2P2fbY"))()
 end)
 
     credits:Button("光影V4",function()
@@ -175,22 +188,22 @@ end)
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/BorkWare/main/Scripts/' .. game.GameId .. ".lua"))(' Watermelon ? ')
 end)
 
-local creds = window:Tab("俄州",'16060333448')
+local creds = window:Tab("俄亥俄州",'16060333448')
 
 local credits = creds:section("内容",true)
-    credits:Button("俄州1",function()
+    credits:Button("俄亥俄州1",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/Ohio.lua", true))()
 end)
 
-    credits:Button("俄州2",function()
+    credits:Button("俄亥俄州2",function()
     loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\115\99\114\105\112\116\115\46\118\105\115\117\114\117\115\46\100\101\118\47\111\104\105\111\47\115\111\117\114\99\101"))()
 end)
 
-    credits:Button("俄州3",function()
+    credits:Button("俄亥俄州3",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/jiankeQWQ/jiankeV3/main/ehaiezhou"))()
 end)
 
-    credits:Button("俄州4",function()
+    credits:Button("俄亥俄州4",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/krlpl/dfhj/main/%E6%AD%BB%E4%BA%A1%E7%AC%94%E8%AE%B0.txt"))()
 end)
 
@@ -246,6 +259,13 @@ local creds = window:Tab("忍者大亨",'16060333448')
 local credits = creds:section("内容",true)
     credits:Button("刷钱",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/AliCode14/scripts/main/ScriptHub.lua"))()
+end)
+
+local creds = window:Tab("战斗勇士",'16060333448')
+
+local credits = creds:section("内容",true)
+    credits:Button("战斗勇士1",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/frkfx/Combat-Warriors/main/Script"))()
 end)
 
 local creds = window:Tab("造船寻宝",'16060333448')
