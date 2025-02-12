@@ -75,7 +75,7 @@ end)
 end)
 
     credits:Button("夜视",function()
-    _G.OnShop = trueloadstring(game:HttpGet('https://raw.githubusercontent.com/DeividComSono/Scripts/main/Scanner.lua'))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/4Vsv1Xwn"))()
 end)
 
     credits:Button("透视",function()
